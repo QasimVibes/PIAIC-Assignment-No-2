@@ -138,7 +138,7 @@ if (number >= 1 && number <= 7) {
 // Where the tax amount will be calculated by the amount of bill.
 
 var units: number = 510;
-var amountPerUnit = 15;
+var amountPerUnit:number = 15;
 
 if (units > 100 && units <= 200) {
   var addTax: number = units * 0.1; // 10% tax
